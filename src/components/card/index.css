@@ -1,0 +1,114 @@
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 250px;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.card-header .top-header span {
+    color: red;
+    font-weight: 800;
+    font-size: 18px;
+}
+.card-header .bottom-header img {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-body .shipping-type {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+}
+.card-body .shipping-type div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  background-color: #eeeded;
+  padding: 2px 5px;
+  border-radius: 10px;
+
+}
+.card-body .shipping-type div span {
+  margin-right: 5px;
+  
+}
+.card-body .title {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.card-body .shipping-time {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: 100%;
+  width: 100%;
+}
+.card-body .shipping-time .condition-sale{
+  display: flex;
+  flex-direction: column;
+
+}
+.card-body .shipping-time .condition-sale div {
+  display: flex;
+  align-items: center;
+}
+
+.card-body .shipping-time div span {
+  margin: 0 5px;
+  font-size: 12px;
+}
+.card-body .shipping-time div span:first-child {
+    margin-top: 5px;
+    font-size: 14px;
+
+  }
+
+.card-footer {
+  margin: 15px 0;
+  width: 100%;
+}
+.card-footer .price-section .discount-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-footer .price-section .normal-price{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.card-footer .price-section .discount-price .badge{
+    background-color: red;
+    padding: 2px 7px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+}
+.card-footer .price-section .old-price{
+  margin-top: 8px;
+  font-size: 12px;
+  margin-left: 35px;
+  text-decoration: line-through;
+  color: #909090;
+}

@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: 'iransansxv';
+  src: url('public/fonts/IRANSansXV.woff2') format('woff-variations'),
+  /* will be the standard and works in Safari now */
+  url('public/fonts/IRANSansXV.woff2') format('woff');
+  /* for the other supporting browsers */
+  font-weight: 100 1000;
+  font-display: fallback;
+
+}
+
+body{
+  background-image: linear-gradient(to right , #0f0c29,#302b63,#24243e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  direction: rtl;
+  font-family: iransansxv;
+
+}
+
