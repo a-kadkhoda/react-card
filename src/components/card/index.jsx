@@ -3,7 +3,9 @@ import 'boxicons'
 
 
 const Card = (props)=>{
-    const Id = props.id
+    console.log(props);
+    const {Id,photo,price,title,rate,discount,isFreeShipping,isSpecialSale,count} = props
+    /* const Id = props.id
     const price = props.price
     const photo = props.photo
     const title = props.title
@@ -11,7 +13,7 @@ const Card = (props)=>{
     const discount = props.discount
     const count = props.count
     const isFreeShipping = props.isFreeShipping
-    const isSpecialSale = props.isSpecialSale
+    const isSpecialSale = props.isSpecialSale */
     const priceFormat=(price)=>{
         const intPrice = parseInt(price)
         const result = new Intl.NumberFormat('en-US').format(intPrice)
